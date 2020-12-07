@@ -1,0 +1,3 @@
+target 'SZHChart' do
+	pod 'Masonry'
+end

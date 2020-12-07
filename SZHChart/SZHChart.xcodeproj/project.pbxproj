@@ -1,0 +1,654 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3942A99DADA695ACE8013EF3 /* libPods-SZHChart.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A254EBE0C8B58C6761C6DA9B /* libPods-SZHChart.a */; };
+		B8131F2724DBC1C400E8EFCB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B8131F2624DBC1C400E8EFCB /* AppDelegate.m */; };
+		B8131F2A24DBC1C400E8EFCB /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B8131F2924DBC1C400E8EFCB /* SceneDelegate.m */; };
+		B8131F2D24DBC1C400E8EFCB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8131F2C24DBC1C400E8EFCB /* ViewController.m */; };
+		B8131F3024DBC1C400E8EFCB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8131F2E24DBC1C400E8EFCB /* Main.storyboard */; };
+		B8131F3224DBC1C700E8EFCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8131F3124DBC1C700E8EFCB /* Assets.xcassets */; };
+		B8131F3524DBC1C700E8EFCB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8131F3324DBC1C700E8EFCB /* LaunchScreen.storyboard */; };
+		B8131F3824DBC1C700E8EFCB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B8131F3724DBC1C700E8EFCB /* main.m */; };
+		B8131F4224DBC1C700E8EFCB /* SZHChartTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B8131F4124DBC1C700E8EFCB /* SZHChartTests.m */; };
+		B8131F4D24DBC1C700E8EFCB /* SZHChartUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B8131F4C24DBC1C700E8EFCB /* SZHChartUITests.m */; };
+		B8131F6224DBCF4600E8EFCB /* SZHChart.m in Sources */ = {isa = PBXBuildFile; fileRef = B8131F6124DBCF4600E8EFCB /* SZHChart.m */; };
+		B8D022D324DE8C37001545E5 /* SZHWaveChart.m in Sources */ = {isa = PBXBuildFile; fileRef = B8D022D224DE8C37001545E5 /* SZHWaveChart.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B8131F3E24DBC1C700E8EFCB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B8131F1A24DBC1C400E8EFCB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B8131F2124DBC1C400E8EFCB;
+			remoteInfo = SZHChart;
+		};
+		B8131F4924DBC1C700E8EFCB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B8131F1A24DBC1C400E8EFCB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B8131F2124DBC1C400E8EFCB;
+			remoteInfo = SZHChart;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A254EBE0C8B58C6761C6DA9B /* libPods-SZHChart.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SZHChart.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7BD5D01DC2D316A26A07B99 /* Pods-SZHChart.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SZHChart.release.xcconfig"; path = "Target Support Files/Pods-SZHChart/Pods-SZHChart.release.xcconfig"; sourceTree = "<group>"; };
+		B8131F2224DBC1C400E8EFCB /* SZHChart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SZHChart.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8131F2524DBC1C400E8EFCB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B8131F2624DBC1C400E8EFCB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B8131F2824DBC1C400E8EFCB /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		B8131F2924DBC1C400E8EFCB /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		B8131F2B24DBC1C400E8EFCB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B8131F2C24DBC1C400E8EFCB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B8131F2F24DBC1C400E8EFCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B8131F3124DBC1C700E8EFCB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B8131F3424DBC1C700E8EFCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B8131F3624DBC1C700E8EFCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8131F3724DBC1C700E8EFCB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B8131F3D24DBC1C700E8EFCB /* SZHChartTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SZHChartTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8131F4124DBC1C700E8EFCB /* SZHChartTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZHChartTests.m; sourceTree = "<group>"; };
+		B8131F4324DBC1C700E8EFCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8131F4824DBC1C700E8EFCB /* SZHChartUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SZHChartUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8131F4C24DBC1C700E8EFCB /* SZHChartUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZHChartUITests.m; sourceTree = "<group>"; };
+		B8131F4E24DBC1C700E8EFCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8131F6024DBCF4600E8EFCB /* SZHChart.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZHChart.h; sourceTree = "<group>"; };
+		B8131F6124DBCF4600E8EFCB /* SZHChart.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZHChart.m; sourceTree = "<group>"; };
+		B8D022D124DE8C37001545E5 /* SZHWaveChart.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZHWaveChart.h; sourceTree = "<group>"; };
+		B8D022D224DE8C37001545E5 /* SZHWaveChart.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZHWaveChart.m; sourceTree = "<group>"; };
+		E0BCBFD898A166B45A1DFB1A /* Pods-SZHChart.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SZHChart.debug.xcconfig"; path = "Target Support Files/Pods-SZHChart/Pods-SZHChart.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B8131F1F24DBC1C400E8EFCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3942A99DADA695ACE8013EF3 /* libPods-SZHChart.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8131F3A24DBC1C700E8EFCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8131F4524DBC1C700E8EFCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1615D42609BAF52FDEBB48D3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E0BCBFD898A166B45A1DFB1A /* Pods-SZHChart.debug.xcconfig */,
+				B7BD5D01DC2D316A26A07B99 /* Pods-SZHChart.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		3148362F38A2DC8E5B45B7E8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A254EBE0C8B58C6761C6DA9B /* libPods-SZHChart.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B8131F1924DBC1C400E8EFCB = {
+			isa = PBXGroup;
+			children = (
+				B8131F2424DBC1C400E8EFCB /* SZHChart */,
+				B8131F4024DBC1C700E8EFCB /* SZHChartTests */,
+				B8131F4B24DBC1C700E8EFCB /* SZHChartUITests */,
+				B8131F2324DBC1C400E8EFCB /* Products */,
+				1615D42609BAF52FDEBB48D3 /* Pods */,
+				3148362F38A2DC8E5B45B7E8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B8131F2324DBC1C400E8EFCB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B8131F2224DBC1C400E8EFCB /* SZHChart.app */,
+				B8131F3D24DBC1C700E8EFCB /* SZHChartTests.xctest */,
+				B8131F4824DBC1C700E8EFCB /* SZHChartUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B8131F2424DBC1C400E8EFCB /* SZHChart */ = {
+			isa = PBXGroup;
+			children = (
+				B8131F2524DBC1C400E8EFCB /* AppDelegate.h */,
+				B8131F2624DBC1C400E8EFCB /* AppDelegate.m */,
+				B8131F2824DBC1C400E8EFCB /* SceneDelegate.h */,
+				B8131F2924DBC1C400E8EFCB /* SceneDelegate.m */,
+				B8131F2B24DBC1C400E8EFCB /* ViewController.h */,
+				B8131F2C24DBC1C400E8EFCB /* ViewController.m */,
+				B8131F2E24DBC1C400E8EFCB /* Main.storyboard */,
+				B8131F3124DBC1C700E8EFCB /* Assets.xcassets */,
+				B8131F3324DBC1C700E8EFCB /* LaunchScreen.storyboard */,
+				B8131F3624DBC1C700E8EFCB /* Info.plist */,
+				B8131F3724DBC1C700E8EFCB /* main.m */,
+				B8131F6024DBCF4600E8EFCB /* SZHChart.h */,
+				B8131F6124DBCF4600E8EFCB /* SZHChart.m */,
+				B8D022D124DE8C37001545E5 /* SZHWaveChart.h */,
+				B8D022D224DE8C37001545E5 /* SZHWaveChart.m */,
+			);
+			path = SZHChart;
+			sourceTree = "<group>";
+		};
+		B8131F4024DBC1C700E8EFCB /* SZHChartTests */ = {
+			isa = PBXGroup;
+			children = (
+				B8131F4124DBC1C700E8EFCB /* SZHChartTests.m */,
+				B8131F4324DBC1C700E8EFCB /* Info.plist */,
+			);
+			path = SZHChartTests;
+			sourceTree = "<group>";
+		};
+		B8131F4B24DBC1C700E8EFCB /* SZHChartUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B8131F4C24DBC1C700E8EFCB /* SZHChartUITests.m */,
+				B8131F4E24DBC1C700E8EFCB /* Info.plist */,
+			);
+			path = SZHChartUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B8131F2124DBC1C400E8EFCB /* SZHChart */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8131F5124DBC1C700E8EFCB /* Build configuration list for PBXNativeTarget "SZHChart" */;
+			buildPhases = (
+				D9DA98087E626B81CD3CC096 /* [CP] Check Pods Manifest.lock */,
+				B8131F1E24DBC1C400E8EFCB /* Sources */,
+				B8131F1F24DBC1C400E8EFCB /* Frameworks */,
+				B8131F2024DBC1C400E8EFCB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SZHChart;
+			productName = SZHChart;
+			productReference = B8131F2224DBC1C400E8EFCB /* SZHChart.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B8131F3C24DBC1C700E8EFCB /* SZHChartTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8131F5424DBC1C700E8EFCB /* Build configuration list for PBXNativeTarget "SZHChartTests" */;
+			buildPhases = (
+				B8131F3924DBC1C700E8EFCB /* Sources */,
+				B8131F3A24DBC1C700E8EFCB /* Frameworks */,
+				B8131F3B24DBC1C700E8EFCB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B8131F3F24DBC1C700E8EFCB /* PBXTargetDependency */,
+			);
+			name = SZHChartTests;
+			productName = SZHChartTests;
+			productReference = B8131F3D24DBC1C700E8EFCB /* SZHChartTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B8131F4724DBC1C700E8EFCB /* SZHChartUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8131F5724DBC1C700E8EFCB /* Build configuration list for PBXNativeTarget "SZHChartUITests" */;
+			buildPhases = (
+				B8131F4424DBC1C700E8EFCB /* Sources */,
+				B8131F4524DBC1C700E8EFCB /* Frameworks */,
+				B8131F4624DBC1C700E8EFCB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B8131F4A24DBC1C700E8EFCB /* PBXTargetDependency */,
+			);
+			name = SZHChartUITests;
+			productName = SZHChartUITests;
+			productReference = B8131F4824DBC1C700E8EFCB /* SZHChartUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B8131F1A24DBC1C400E8EFCB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "石子涵";
+				TargetAttributes = {
+					B8131F2124DBC1C400E8EFCB = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					B8131F3C24DBC1C700E8EFCB = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = B8131F2124DBC1C400E8EFCB;
+					};
+					B8131F4724DBC1C700E8EFCB = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = B8131F2124DBC1C400E8EFCB;
+					};
+				};
+			};
+			buildConfigurationList = B8131F1D24DBC1C400E8EFCB /* Build configuration list for PBXProject "SZHChart" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B8131F1924DBC1C400E8EFCB;
+			productRefGroup = B8131F2324DBC1C400E8EFCB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B8131F2124DBC1C400E8EFCB /* SZHChart */,
+				B8131F3C24DBC1C700E8EFCB /* SZHChartTests */,
+				B8131F4724DBC1C700E8EFCB /* SZHChartUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B8131F2024DBC1C400E8EFCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8131F3524DBC1C700E8EFCB /* LaunchScreen.storyboard in Resources */,
+				B8131F3224DBC1C700E8EFCB /* Assets.xcassets in Resources */,
+				B8131F3024DBC1C400E8EFCB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8131F3B24DBC1C700E8EFCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8131F4624DBC1C700E8EFCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D9DA98087E626B81CD3CC096 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SZHChart-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B8131F1E24DBC1C400E8EFCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8131F6224DBCF4600E8EFCB /* SZHChart.m in Sources */,
+				B8D022D324DE8C37001545E5 /* SZHWaveChart.m in Sources */,
+				B8131F2D24DBC1C400E8EFCB /* ViewController.m in Sources */,
+				B8131F2724DBC1C400E8EFCB /* AppDelegate.m in Sources */,
+				B8131F3824DBC1C700E8EFCB /* main.m in Sources */,
+				B8131F2A24DBC1C400E8EFCB /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8131F3924DBC1C700E8EFCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8131F4224DBC1C700E8EFCB /* SZHChartTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8131F4424DBC1C700E8EFCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8131F4D24DBC1C700E8EFCB /* SZHChartUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B8131F3F24DBC1C700E8EFCB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B8131F2124DBC1C400E8EFCB /* SZHChart */;
+			targetProxy = B8131F3E24DBC1C700E8EFCB /* PBXContainerItemProxy */;
+		};
+		B8131F4A24DBC1C700E8EFCB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B8131F2124DBC1C400E8EFCB /* SZHChart */;
+			targetProxy = B8131F4924DBC1C700E8EFCB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B8131F2E24DBC1C400E8EFCB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B8131F2F24DBC1C400E8EFCB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B8131F3324DBC1C700E8EFCB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B8131F3424DBC1C700E8EFCB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B8131F4F24DBC1C700E8EFCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B8131F5024DBC1C700E8EFCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B8131F5224DBC1C700E8EFCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0BCBFD898A166B45A1DFB1A /* Pods-SZHChart.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = USX8LB59D7;
+				INFOPLIST_FILE = SZHChart/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = khfdkhvihvkshvksh.SZHChart;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B8131F5324DBC1C700E8EFCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7BD5D01DC2D316A26A07B99 /* Pods-SZHChart.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = USX8LB59D7;
+				INFOPLIST_FILE = SZHChart/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = khfdkhvihvkshvksh.SZHChart;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B8131F5524DBC1C700E8EFCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = USX8LB59D7;
+				INFOPLIST_FILE = SZHChartTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = khfdkhvihvkshvksh.SZHChartTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SZHChart.app/SZHChart";
+			};
+			name = Debug;
+		};
+		B8131F5624DBC1C700E8EFCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = USX8LB59D7;
+				INFOPLIST_FILE = SZHChartTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = khfdkhvihvkshvksh.SZHChartTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SZHChart.app/SZHChart";
+			};
+			name = Release;
+		};
+		B8131F5824DBC1C700E8EFCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = USX8LB59D7;
+				INFOPLIST_FILE = SZHChartUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = khfdkhvihvkshvksh.SZHChartUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SZHChart;
+			};
+			name = Debug;
+		};
+		B8131F5924DBC1C700E8EFCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = USX8LB59D7;
+				INFOPLIST_FILE = SZHChartUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = khfdkhvihvkshvksh.SZHChartUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SZHChart;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B8131F1D24DBC1C400E8EFCB /* Build configuration list for PBXProject "SZHChart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8131F4F24DBC1C700E8EFCB /* Debug */,
+				B8131F5024DBC1C700E8EFCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8131F5124DBC1C700E8EFCB /* Build configuration list for PBXNativeTarget "SZHChart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8131F5224DBC1C700E8EFCB /* Debug */,
+				B8131F5324DBC1C700E8EFCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8131F5424DBC1C700E8EFCB /* Build configuration list for PBXNativeTarget "SZHChartTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8131F5524DBC1C700E8EFCB /* Debug */,
+				B8131F5624DBC1C700E8EFCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8131F5724DBC1C700E8EFCB /* Build configuration list for PBXNativeTarget "SZHChartUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8131F5824DBC1C700E8EFCB /* Debug */,
+				B8131F5924DBC1C700E8EFCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B8131F1A24DBC1C400E8EFCB /* Project object */;
+}
