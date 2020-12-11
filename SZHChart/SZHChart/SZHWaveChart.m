@@ -259,7 +259,6 @@
     CGFloat bgHeight = 6 * _spaceY;  //得到在X轴上
     //获取最后一个点的X值
     CGFloat lastPointX = self.lastestPoint.x;
-    
     //最后一个点对应的x轴的位置的点
     CGPoint lastPointX1 = CGPointMake(lastPointX, bgHeight);
     //遮罩层轨轨迹添加
